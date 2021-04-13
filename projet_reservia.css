@@ -346,6 +346,7 @@ figure:hover
 	width: 100%;
 	height: 90%;
 	background-color: #F2F2F2;
+	border-radius: 20px;
 }
 
 
@@ -450,6 +451,7 @@ figure:hover
 {
 	height: 50%;
 	width: 100%;
+	border-radius: 20px;
 }
 
 .grande_image
@@ -466,13 +468,14 @@ figure:hover
 	height: 100%;
 	display: flex;
     flex-direction: column;
+	justify-content: space-between;
 	margin: 1%;
 }
 
 .lien_act
 {
   width: 100%;
-  height: 22.5%;
+  height: 23%;
 }
 
 .activite_img
@@ -480,14 +483,20 @@ figure:hover
 	width: 100%;
 	height: 100%;
 	margin: 0;
+	border-radius: 20px;
 }
 
 .petite_image
 {
-	height: 75%;
+	height: 80%;
     width: 100%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
+}
+
+.activite_sous-titre
+{
+	margin: 1%;
 }
 
 footer
@@ -566,7 +575,6 @@ footer h3
 
 	.hebergement_titre
 	{
-		margin: 2rem 0 0 1rem;
 	}
 
 	.hebergement_liste
