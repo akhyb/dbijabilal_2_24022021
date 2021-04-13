@@ -417,7 +417,8 @@ figure:hover
 .activites 
 {
 	width: 100%;
-	height: 800px;
+	height: 450px;
+	border: 1px solid green;
 }	
 
 .activite_titre
@@ -432,7 +433,7 @@ figure:hover
 	display: flex;
 	flex-direction: row;
 	width: 100%;
-	height: 100%;
+	height: 90%;
 }
 
 .activite_seul
@@ -444,12 +445,13 @@ figure:hover
 
 .lien_activite
 {
-
+	width: 100%;
+	height: 100%;
 }
 
 .activite_image
 {
-	height: 50%;
+	height: 95%;
 	width: 100%;
 	border-radius: 20px;
 }
@@ -465,7 +467,7 @@ figure:hover
 .activite_1
 {
 	width: 100%;
-	height: 100%;
+	height: 95%;
 	display: flex;
     flex-direction: column;
 	justify-content: space-between;
@@ -475,7 +477,7 @@ figure:hover
 .lien_act
 {
   width: 100%;
-  height: 23%;
+  height: 46.5%;
 }
 
 .activite_img
@@ -488,7 +490,7 @@ figure:hover
 
 .petite_image
 {
-	height: 80%;
+	height: 78%;
     width: 100%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
