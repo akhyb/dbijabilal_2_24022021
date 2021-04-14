@@ -7,6 +7,7 @@
 body
 {
 	font-family: "Raleway";
+	padding: 0 2% 0 2%;
 }
 
 a
@@ -21,20 +22,24 @@ header
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	height: 75px;
+	height: 90px;
 }
 
+.reservia
+{
+	width: 100%;
+}
 
 .logo
 {
-	width: 80px;
-	height: 50px;
+	width: 110px;
+	height: 70px;
 }
 
 .head_lien
 {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	width: 40%;
 	height: 100%;
 	align-items: center;
@@ -42,10 +47,12 @@ header
 
 .nav 
 {
-	width: 50%;
+	width: 66%;
 	height: 100%;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
+
 }
 
 .header_nav
@@ -53,7 +60,7 @@ header
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 90%;
+	width: 94%;
 }
 
 nav a:hover
@@ -61,7 +68,6 @@ nav a:hover
 	border-top: 3px solid #0065FC;
 	color: #0065FC;  
 	text-decoration: none;
-	padding-top: 2px;
 }
 
 nav a 
@@ -83,7 +89,7 @@ nav a
 {
 	font-size: 1rem;
 	width: auto;
-	height: 50px;
+	height: 70px;
 }
 
 .lieu
@@ -125,7 +131,7 @@ nav a
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	margin-top: 4rem;
+	margin-top: 2%;
 }
 
 .filtres_rechercher i
@@ -218,6 +224,7 @@ nav a
 	height: 10%;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .annonce_hebergements
@@ -332,6 +339,12 @@ figure:hover
 
 }
 
+.hebergement_titre i
+{
+	font-size: x-largex;
+	font-weight: bold;
+}
+
 .hb_mar
 {
 	font-family: "Raleway" ;
@@ -421,6 +434,7 @@ figure:hover
 {
 	width: 100%;
 	height: 450px;
+	margin-bottom: 5%;
 }	
 
 .activite_titre
@@ -508,6 +522,7 @@ footer
 	background-color: #F2F2F2;
 	display: flex;
 	flex-direction: row;
+	
 }
 
 footer div
@@ -517,13 +532,14 @@ footer div
 	flex-direction: column;
 }
 
-footer a
+.lien_footer
 {
+	margin-top: 3%;
 }
 
 footer h3
 {
-	font-weight: bold;
+	font-weight: bold;	
 }
 
 @media all and (max-width: 480px)
@@ -553,6 +569,7 @@ footer h3
 	{
 		display: flex;
 		flex-direction: column-reverse;
+		align-items: center;
 	}
 	.header_nav
 	{
