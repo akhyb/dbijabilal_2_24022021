@@ -556,17 +556,21 @@ footer h3
 
 	header 
 	{
-		
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		height: 85px;
 	}
 
 	.reservia
 	{
-		height: 20px;
+		height: 14px;
 	}
 
 	.logo
 	{
-		width: 80px;
+		width: 94px;
 		height: auto;
 	}
 
@@ -581,7 +585,7 @@ footer h3
 		flex-direction: column-reverse;
 		align-items: flex-end;
 		width: 100%;
-		height: 100px;
+		height: 85px;
 
 	}
 
