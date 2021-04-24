@@ -209,7 +209,6 @@ nav a
 {
 	display: flex;
 	justify-content: center;
-	padding-left: 0,5rem;
 }
 
 .info
@@ -373,7 +372,6 @@ figure:hover
 
 .hebergement_titre i
 {
-	font-size: x-largex;
 	font-weight: bold;
 }
 
@@ -442,7 +440,6 @@ figure:hover
 	height: 100%;
 	border-radius: 20px;
 	display: flex;
-	justify-content: row;
 	background-color: white;
 	justify-content: space-between;
 }
@@ -464,7 +461,6 @@ figure:hover
 .note_hebergements
 {
 	display: flex;
-	justify-content: row;
 	color: #0065FC;
 }
 
@@ -810,7 +806,7 @@ footer h3
 		margin: 4%;
 	}
 
-	.activité_img
+	.activite_img
 	{
 		width: 100%;
 		height: 190px;
